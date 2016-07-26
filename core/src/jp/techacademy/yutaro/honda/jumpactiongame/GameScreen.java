@@ -173,7 +173,7 @@ public class GameScreen extends ScreenAdapter {
                 mEnemies.add(enemy);
             }
 
-            y += (maxJumpHeight - 0.5f);
+            y += (maxJumpHeight - 0.01f);
             y -= mRandom.nextFloat() * (maxJumpHeight / 3);
         }
 
